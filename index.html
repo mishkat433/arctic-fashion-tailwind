@@ -27,8 +27,52 @@
 <body>
     <!-- header start -->
     <header class="bg-lime-100">
+
+        <nav class="px-2 w-11/12 mx-auto py-4 hidden md:block lg:block">
+            <div class="container flex flex-wrap justify-between items-center mx-auto">
+                <a href="#" class="flex items-center">
+                    <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">Arctic
+                        Fashion</span>
+                </a>
+                <button data-collapse-toggle="mobile-menu" type="button"
+                    class="inline-flex justify-center items-center ml-3 text-gray-400 rounded-lg md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:text-gray-400 dark:hover:text-white dark:focus:ring-gray-500"
+                    aria-controls="mobile-menu-2" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+                <div class="hidden  w-full md:block md:w-auto " id="mobile-menu">
+                    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                                aria-current="page">Home</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                                aria-current="page">Products</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                                aria-current="page">About
+                                Us</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                                aria-current="page">Contact
+                                Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
         <section class="p-2 container mx-auto lg:flex justify-around items-center">
-            <div class="space-y-4 lg:w-1/2">
+            <div class="space-y-4 lg:w-1/2 ">
                 <h1 class="uppercase lg:text-7xl text-4xl font-bold"><span class="text-lime-600 ">Be the
                         Arctic</span>
                     <br>of
@@ -45,7 +89,7 @@
                     </svg>buy now</button>
             </div>
             <div>
-                <img class="lg:my-20 sm:mt-12 md:w-full lg:w-full" src="./images/model.png" alt="">
+                <img class="lg:my-24 my-8 md:w-full lg:w-full" src="./images/model.png" alt="">
             </div>
         </section>
     </header>
