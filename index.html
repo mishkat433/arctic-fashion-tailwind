@@ -10,6 +10,9 @@
     <!-- Tailwind CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Navbar CDN -->
+    <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
+
     <script>
         tailwind.config = {
             theme: {
@@ -28,7 +31,7 @@
     <!-- header start -->
     <header class="bg-lime-100">
 
-        <nav class="px-2 w-11/12 mx-auto py-4 hidden md:block lg:block">
+        <nav class="px-2 w-11/12 mx-auto py-4  ">
             <div class="container flex flex-wrap justify-between items-center mx-auto">
                 <a href="#" class="flex items-center">
                     <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">Arctic
@@ -46,22 +49,23 @@
                     </svg>
                 </button>
                 <div class="hidden  w-full md:block md:w-auto " id="mobile-menu">
-                    <ul class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+                    <ul
+                        class="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium text-center lg:text-right ">
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                            <a href="#" class="block py-2 pr-4 pl-3 hover:text-lime-600 transition-all"
                                 aria-current="page">Home</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                            <a href="#" class="block py-2 pr-4 pl-3 hover:text-lime-600 transition-all"
                                 aria-current="page">Products</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                            <a href="#" class="block py-2 pr-4 pl-3 hover:text-lime-600 transition-all"
                                 aria-current="page">About
                                 Us</a>
                         </li>
                         <li>
-                            <a href="#" class="block py-2 pr-4 pl-3 font-bold hover:text-lime-600 transition-all"
+                            <a href="#" class="block py-2 pr-4 pl-3 hover:text-lime-600 transition-all"
                                 aria-current="page">Contact
                                 Us</a>
                         </li>
@@ -70,13 +74,10 @@
             </div>
         </nav>
 
-
-        <section class="p-2 container mx-auto lg:flex justify-around items-center">
+        <section class="p-2 container w-11/12 mx-auto lg:flex justify-between items-center">
             <div class="space-y-4 lg:w-1/2 ">
                 <h1 class="uppercase lg:text-7xl text-4xl font-bold"><span class="text-lime-600 ">Be the
-                        Arctic</span>
-                    <br>of
-                    Winter
+                        Arctic</span> <br>of Winter
                 </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sequi ad,
                     ut earum expedita laboriosam numquam ex.</p>
@@ -265,7 +266,7 @@
     <!-- footer start -->
 
     <footer class="py-10 bg-lime-200 font-bold">
-        <h4 class="text-center">All rights reserved by Md Mishkat -2022</h4>
+        <h4 class="text-center">All rights reserved by Md Mishkat - 2022</h4>
     </footer>
 
     <!-- footer end -->
